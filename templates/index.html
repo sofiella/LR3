@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+</head>
+<body>
+    <h1>Конвертер валют</h1>
+    <form method="post">
+        <input type="text" name="amount" placeholder="Введите сумму" required><br><br>
+
+        <label>Из:</label>
+        <select name="from">
+            <option value="rur">RUB</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select>
+
+        <label>В:</label>
+        <select name="to">
+            <option value="rur">RUB</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select><br><br>
+
+        <input type="submit" value="Конвертировать">
+    </form>
+
+    <h2>{{ ans }}</h2>
+</body>
+</html>
