@@ -1,4 +1,4 @@
-# Лабораторная работа №3  
+# Лабораторная работа №3, вариант №4
 
 ![image](https://github.com/user-attachments/assets/e299eeae-7de4-4056-85b9-931b087f45c7)
 
